@@ -4,13 +4,10 @@
 
 
 void main(void) {
-    char src[] = "The worst things to eat before you sleep";
-    char dst[100];
+    char str[30] = "happy C programming";
 
-    //복사
-    strcpy(dst , src); //대상,원본, 반복문짤필요없이 
-
-
-    printf("copied string : %s\n", dst);
+    printf("문자열 \"%s\" 의 길이: %i\n" ,str,strlen(str));
     return 0;
 }
+
+//결과값은 널문자 빼고계산
