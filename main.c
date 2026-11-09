@@ -10,5 +10,3 @@ int main(void) {
 
 }
     
-
-//A 65, A 65 
