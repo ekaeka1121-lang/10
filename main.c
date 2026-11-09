@@ -1,12 +1,27 @@
 #include <stdio.h>
 
 int main(void) {
-    char code1 = 'A';
-    int code2 = 65; //둘이 자료형이 다르므로 공간은 다름
+    int i = 0;
+    char str[4];
 
-    printf("code1 = %c, (%d)\n", code1,code1);
-    printf("code2 = %c, (%d)\n", code2,code2);
+    str[0] = 'a';
+    str[1] = 'b';
+    str[2] = 'c';
+    str[3] = '\0';
+
+    printf("%s\n", str);
+
+
+    while(str[i] != '\0')
+    {
+        printf("%c", str[i]);
+        i++;
+    }
+
+    printf("\n");
+    
     return 0;
 
+
+
 }
-    
